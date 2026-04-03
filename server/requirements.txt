@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+qrcode
+python-multipart
+# Optional — only needed if ENABLE_STT=true
+# faster-whisper

@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "PocketLlama",
+    "slug": "pocket-llama",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "pocketllama",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "PocketLlama needs camera access to scan QR codes and capture images for vision models."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.varunpatkar.pocketllama"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "PocketLlama needs camera access to scan QR codes and capture images."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PocketLlama needs access to your photos to send images to vision models."
+        }
+      ],
+      "expo-audio"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5d88efb4-ab89-43ee-9436-bc1a3e95d4ef"
+      }
+    }
+  }
+}

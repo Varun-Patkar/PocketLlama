@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment (secrets — use .env.example as template)
+.env
+!.env.example
+
+# Generated audio (STT temp files)
+generated_audio/
+
+# OS
+.DS_Store
+Thumbs.db
