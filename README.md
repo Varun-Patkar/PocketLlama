@@ -273,8 +273,6 @@ Made with ❤️ for the local AI community
 
 ## Demo
 
-<!-- Add demo video/GIF here -->
-<!-- Example: -->
-<!-- https://github.com/user-attachments/assets/your-video-id -->
+[![PocketLlama Demo](https://img.youtube.com/vi/e7ZsvDSIBvA/maxresdefault.jpg)](https://youtu.be/e7ZsvDSIBvA)
 
-> 📹 *Demo video coming soon*
+> 📹 *Click the image above to watch the demo on YouTube*
